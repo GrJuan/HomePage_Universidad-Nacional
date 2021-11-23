@@ -1,0 +1,21 @@
+.header{
+    background-color: #666;
+    height: 30px;
+}
+.Icons{
+    float: right;
+}
+
+.ulNav>li a{
+    text-decoration: none;
+    color: #fff;
+}
+.liNav{
+    border-right: 1px solid #3d3d3d;
+}
+.Icons li{
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+    font-size: 13.5px;
+}

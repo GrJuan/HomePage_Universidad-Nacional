@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+	content: '';
+	display: block;	
+	height: 1px;
+	left: 50%;
+	margin: 0 0 0 -400px;
+	position: absolute;
+	width: 800px;
+}
+
+
+.webdesigntuts-workshop form {
+	display: inline-block;
+	font-size: 0px;
+	margin: 39px auto 0;
+	padding-left: 55.5rem;
+	position: relative;
+	z-index: 1;
+}
+
+.webdesigntuts-workshop input {
+	background: rgb(255, 255, 255);
+    border: none;
+	color: #888;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	width: 260px;
+}
+
+.ie .webdesigntuts-workshop input {
+	line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+   color: #666;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+   color: #666;
+}
+
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+	color: #fff;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+	color: #666;
+}
+
+.webdesigntuts-workshop button {
+	background: #94b43b;
+	background: linear-gradient(#94b43b);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	border: none;
+	border-left-color: rgb(230, 62, 62);
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+	background: #94b43b;
+	color: rgb(255, 255, 255);
+	outline: none;
+}
+
+
+

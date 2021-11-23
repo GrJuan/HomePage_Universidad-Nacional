@@ -1,0 +1,135 @@
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+    padding-top: 37rem;
+	margin: 0 auto;
+    font-size: 11px;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 11px;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+#slide2{
+    font-size: 11px;
+}
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+    
+}
+
+.slider-controler li {
+	margin: 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+    color: #fff;
+}
+.slider-controler a {
+    padding-top: 1rem;
+}
+.pp{
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 2px
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+
+	.caption {
+		font-size: 96px;
+		bottom: 96px;
+		right: 50px;
+	}
+}

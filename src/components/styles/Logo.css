@@ -1,0 +1,19 @@
+.companyLogo{
+    height: 124px;
+    position:relative; 
+    top:-115px;
+    left: 2rem;
+    z-index: 9;
+    background: url(https://unal.edu.co/fileadmin/templates/images/sealBck.png);
+
+}
+.soyUnal{
+    position: absolute;
+    width: 258px;
+    height: 125px;
+    background-color: #48009d;
+    border-bottom-right-radius: 20px;
+    top: 76px;
+    left: 0;
+    z-index: 1;
+}

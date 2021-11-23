@@ -1,0 +1,14 @@
+body {
+background: url(../../frontend/src/assets/page.jpeg);  /* fallback for old browsers */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.material-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.container p-4{
+    padding: 0;
+}

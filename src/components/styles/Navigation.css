@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Rampart+One&display=swap');
+.navbar{
+    height: 77px;
+    font-size: 1.1rem;
+    
+}
+.p-3 {
+    padding: 0rem!important;
+}
+.navbar{
+    display: inherit;
+}
+.bg-dark {
+    background: url(../../assets/navigationBack.png);
+    /* background-color: #003a62!important; */
+    /* background-color: #071640!important; */
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(255, 255, 255);
+    
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: rgb(255, 255, 255);
+    
+}
+.navbar-expand-lg .navbar-nav{
+    position: absolute;
+    left: 17rem;
+}
+.grid-position{
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bottons{
+   display: initial;
+   padding-left: 15px;
+   
+}
+.hover{
+    color:#fff;
+}
+a:hover{
+    color: #666;
+    text-decoration: none;
+}
+.navBottons{
+    padding-left: 10.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+    list-style-image: url(../../assets/triangulo.png); 
+}
+.top_unal{
+    float: left;
+    height: 17px;
+    margin: 12px 10px 10px 250px;
+    font-size: 24px;
+    line-height: 18px;
+}
+.site_url{
+    font-size: 18px;
+    padding-left: 8px;
+    color: #fff;
+    margin: 1px 5px 0px 20px;
+}
+.seal{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 2;
+}
